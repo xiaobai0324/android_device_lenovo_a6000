@@ -20,6 +20,12 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
+LOCAL_PATH := device/lenovo/a6000
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dt.img:dt.img \
+    $(LOCAL_PATH)/kernel:kernel
+
 PRODUCT_DEVICE := a6000
 PRODUCT_NAME := cm_a6000
 PRODUCT_BRAND := Lenovo
