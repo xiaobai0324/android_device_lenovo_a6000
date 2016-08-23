@@ -1,3 +1,3 @@
-add_lunch_combo lenovo_a6000-user
-add_lunch_combo lenovo_a6000-userdebug
-add_lunch_combo lenovo_a6000-eng
+add_lunch_combo cm_a6000-user
+add_lunch_combo cm_a6000-userdebug
+add_lunch_combo cm_a6000-eng
